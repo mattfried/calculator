@@ -92,6 +92,7 @@ body {
   background-color: #1e392a;
   border: none;
   transition: transform 0.175s ease-in-out;
+  -webkit-appearance: none;
 }
 
 .click:focus {
