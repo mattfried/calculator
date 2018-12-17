@@ -28,9 +28,8 @@ body {
 #calculator {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(25, 25, 25);
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  height: 90%;
+  margin: 0 0 10%;
   padding: 4% 3%;
   position: relative;
 }
@@ -47,7 +46,7 @@ body {
   width: 100%;
   height: 22%;
   /*  for testing purposes only */
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 }
 
 #screen {
@@ -85,14 +84,13 @@ body {
   height: 91%;
   width: 22%;
   margin: auto;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   border-radius: 20px;
   color: white;
   background-color: #1e392a;
   border: none;
   transition: transform 0.175s ease-in-out;
-  -webkit-appearance: none;
 }
 
 .click:focus {
@@ -132,9 +130,9 @@ body {
     and (max-height: 850px) {
 
 /*  for testing purposes only */
-  #screenContainer {
+  /* #screenContainer {
     border: 2px solid red;
-  }
+  } */
 
   .fontLrg {
     font-size: 4.2em;
@@ -162,8 +160,13 @@ body {
 @media screen and (min-width: 601px) and (min-height: 851px) {
 
 /*  for testing purposes only */
-  #screenContainer {
+  /* #screenContainer {
     border: 2px solid white;
+  } */
+
+  #calculator {
+    height: 95%;
+    margin: 0 0 5%;
   }
 
   .fontLrg {
@@ -206,7 +209,7 @@ body {
   #screenContainer {
     height: 25%;
 /*    for testing purposes only */
-   border: 2px solid grey;
+   /* border: 2px solid grey; */
   }
 
   .row {
@@ -251,6 +254,8 @@ body {
 @media screen and (max-width: 850px) and (max-height: 450px) {
 
   #calculator {
+    height: 100%;
+    margin: 0;
     padding: 2% 5%;
     max-width: 500px;
     margin-left: auto;
@@ -260,7 +265,7 @@ body {
   #screenContainer {
     height: 25%;
 /*    for testing purposes only */
-   border: 2px solid purple;
+   /* border: 2px solid purple; */
   }
 
   .row {
@@ -308,7 +313,7 @@ body {
   #screenContainer {
     height: 25%;
 /*    for testing purposes only */
-   border: 2px solid yellow;
+   /* border: 2px solid yellow; */
   }
 
   .row {
@@ -355,9 +360,9 @@ body {
   }
 
 /*  for testing purposes only */
-  #screenContainer {
+  /* #screenContainer {
     border: 2px solid blue;
-  }
+  } */
 
   .fontLrg {
     font-size: 10.5em;
