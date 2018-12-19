@@ -84,7 +84,7 @@ body {
   height: 91%;
   width: 22%;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
   border-radius: 20px;
   color: white;
@@ -112,7 +112,7 @@ body {
 
 #clear {
   width: 72%;
-  font-size: 2em;
+  font-size: 1.75em;
   letter-spacing: 0.08em;
 }
 
@@ -144,6 +144,11 @@ body {
 
   .fontSm {
     font-size: 1.9em;
+  }
+      
+  .click,
+  #screen {
+    font-size: 2em;
   }
 }
 
